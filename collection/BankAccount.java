@@ -5,49 +5,49 @@ import java.util.List;
 
 public class BankAccount {
 
-	private String HolderName;
-	private String BranchName;
-	private int AccountNo;
-	private String Branch;
+	private String holderName;
+	private String branchName;
+	private int accountNo;
+	private String branch;
 
 	public BankAccount(String holderName, String branchName, int accountNo, String branch) {
 		super();
-		HolderName = holderName;
-		BranchName = branchName;
-		AccountNo = accountNo;
-		Branch = branch;
+		holderName = holderName;
+		branchName = branchName;
+		accountNo = accountNo;
+		branch = branch;
 	}
-	public String getHolderName() {
-		return HolderName;
+	public String getholderName() {
+		return holderName;
 	}
 	public void setHolderName(String holderName) {
-		HolderName = holderName;
+		holderName = holderName;
 	}
-	public String getBranchName() {
-		return BranchName;
+	public String getbranchName() {
+		return branchName;
 	}
-	public void setBranchName(String branchName) {
-		BranchName = branchName;
+	public void setbranchName(String branchName) {
+		branchName = branchName;
 	}
-	public int getAccountNo() {
-		return AccountNo;
+	public int getaccountNo() {
+		return accountNo;
 	}
 
 	public void setAccountNo(int accountNo) {
-		AccountNo = accountNo;
+		accountNo = accountNo;
 	}
 
 	public String getBranch() {
-		return Branch;
+		return branch;
 	}
 
 	public void setBranch(String branch) {
-		Branch = branch;
+		branch = branch;
 	}
 	@Override
 	public String toString() {
-		return "BankAccount [HolderName=" + HolderName + ", BranchName=" + BranchName + ", AccountNo=" + AccountNo
-				+ ", Branch=" + Branch + "]";
+		return "BankAccount [HolderName=" + holderName + ", branchName=" + branchName + ", accountNo=" + accountNo
+				+ ", branch=" + branch + "]";
 	}
 	public static void main(String[] args) {
 
@@ -62,6 +62,8 @@ public class BankAccount {
 
 		list.add(new BankAccount("Saikumar", "Vizag", 2345, "sbi") );
 		System.out.println( bankaccount);
+		
+		
 
 
 

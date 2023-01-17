@@ -14,6 +14,7 @@ public class DemoTreeSet {
 		sortedStringset.add("Shubham");
 		sortedStringset.add("Mayur");
 		sortedStringset.add("Ram");
+		sortedStringset.add("sagar");
 
 		System.out.println("sortedStringset =====" + sortedStringset);
 

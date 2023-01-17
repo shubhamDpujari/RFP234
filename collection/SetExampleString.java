@@ -20,6 +20,7 @@ public class SetExampleString {
 		System.out.println(stringSet);
 
 		boolean issuccess = stringSet.add("java");
+//		System.out.println(set.);
 		System.out.println( issuccess );
 
 		Iterator<String> iterator = stringSet.iterator();

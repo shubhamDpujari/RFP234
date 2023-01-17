@@ -10,8 +10,6 @@ public class SetExampleInteger {
 	public static void main(String[] args) {
 		Set<Integer> integerSet = new HashSet();
 
-
-
 		integerSet.add(10);
 		integerSet.add(30);
 		integerSet.add(40);
@@ -49,6 +47,12 @@ public class SetExampleInteger {
 		
 		boolean issuccess1 = integerSet.add(30);
 		System.out.println(issuccess1);
+		
+		Iterator<Integer> iterator1 = integerSet.iterator();
+		while (iterator1.hasNext());
+			int num = iterator1.next();
+			System.out.println("while using iterator while loop="+ num);
+		}
 
 
 
@@ -57,4 +61,4 @@ public class SetExampleInteger {
 
 	}
 
-}
+

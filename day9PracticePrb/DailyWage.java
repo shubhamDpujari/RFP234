@@ -15,13 +15,13 @@ public class DailyWage {
 	int emphrs2 =8;
 	int wage1 = (emphrs1 * emprateperhr);
 	int wage2 = (emphrs2 * emprateperhr);
-
-//uc1
+  
+	//uc1
 	public void welcome() {
 		System.out.println("Welcome to Employee Wage");
 	}
 
-//uc2
+	//uc2
 	public void Attendance () {
 		int isfulltime = 1;
 
@@ -34,7 +34,7 @@ public class DailyWage {
 		}
 	}
 
-//uc3
+	//uc3
 	public void empwage( ) {
 		int ispresent =1;
 		double randomcheck = (Math.random() % 2);
@@ -50,7 +50,7 @@ public class DailyWage {
 		}
 	}
 
-//uc4
+	//uc4
 	public void parttime() {
 
 		if (isfulltime ==2) {
